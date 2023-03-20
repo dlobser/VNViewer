@@ -1,0 +1,26 @@
+OptionType: 0
+Name: M
+Label: Main
+Pages : A|B|C
+IntroText: I will tell you a joke
+^
+OptionType: 1
+Name: A
+Label: R
+ImagesDirectory : Images/R
+Pages : M
+IntroText: Red
+^
+OptionType: 1
+Name: B
+Label: G
+PreviousPage: M
+ImagesDirectory : Images/G
+IntroText: Green
+^
+OptionType: 1
+Name: C
+Label: B
+PreviousPage: M
+ImagesDirectory : Images/B
+IntroText: Blue

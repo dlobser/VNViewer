@@ -1,0 +1,27 @@
+OptionType: 0
+Name: M
+Label: Main
+ImagesDirectory : Images/B
+Pages : A|B|C
+IntroText: I will tell you a joke
+^
+OptionType: 1
+Name: A
+Label: Red
+ImagesDirectory : Z:\VRViewer-3-3\viewer_Data\Images\3-18
+Pages : M
+IntroText: Red
+^
+OptionType: 1
+Name: B
+Label: Green
+PreviousPage: M
+ImagesDirectory : Z:\VRViewer-3-3\viewer_Data\Images\3-15_B
+IntroText: Green
+^
+OptionType: 1
+Name: C
+Label: Blue
+PreviousPage: M
+ImagesDirectory : Z:\VRViewer-3-3\viewer_Data\Images\Jan_28_p
+IntroText: Blue

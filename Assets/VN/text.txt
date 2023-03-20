@@ -1,0 +1,24 @@
+OptionType: 0
+Name: First Page
+Pages : Second Page
+ImagesDirectory : Images/B
+IntroText: I will tell you a joke
+-
+OptionType: 1
+Name: Second Page
+Label: OK
+Pages : Optiona | Option B
+IntroText: How many cows does it take to say "Moooo...."?
+-
+OptionType: 1
+Name: Option A
+Label: One?
+PreviousPage: First page
+IntroText: Yes, just one, you are correct.
+BGMusic: C:\_Main\projects\Client\camouflaj\BillboardFactory\Library\PackageCache\com.unity.timeline@1.6.4\Samples~\GameplaySequenceDemo\Audio\crickets.mp3
+-
+OptionType: 1
+Name: Option B
+Label: Two?
+PreviousPage: firstpage
+IntroText: No, it only takes one, you are incorrect, try again.
